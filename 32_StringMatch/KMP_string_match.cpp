@@ -60,7 +60,7 @@ int main(){
     m = strlen(P); 
 
     KMP_match_my(T,P,n,m);
-    compute_prefix_function(P,m);
+    //compute_prefix_function(P,m);
 
     // for(int i=0;i<m;i++){
     //     cout<<prefix[i+1]<<endl;
